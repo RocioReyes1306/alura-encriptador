@@ -1,0 +1,154 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background: #E9ECF8;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    gap:15%;
+    
+}
+.input-text{
+    width: 60%;
+    margin-top: 40px;
+}
+.text-box-container{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.text-box{
+    width: 100%;
+    font-size: 32px;
+    resize: none;
+    border: none;
+    background: #E9ECF8;
+}
+.text-box:focus{
+    outline: none;
+}
+.alert{
+    font-size: 12px;
+    margin-left: 10%;
+}
+.buttons-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap:10%;
+}
+.btn-encripta{
+    width:45%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #0A3871;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.btn-encripta:active{
+    background: #000000;
+}
+.btn-desencripta{
+    width:45%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0A3871;
+    background: white;
+    border:#0A3871;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.btn-desencripta:active{
+    background: #473f3f;
+}
+::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+.output-text{
+    width: 25%;
+    background-color: rgb(252, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    text-align: center;
+}
+.munieco{
+    width: 90%;
+}
+.imgmunieco{
+    width: 100%;
+}
+.btn-copy-container{
+    width: 90%;
+    justify-self: end;
+    visibility:hidden;
+}
+.btn-copy{
+    width:100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0A3871;
+    background: white;
+    border:1px solid#0A3871;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.final-text-container{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    display:none;  
+}
+.final-text{
+    width: 100%;
+    font-size: 20px;   
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+footer{
+background: #80a2cc;
+padding: 10px;
+margin-top: 20px;
+}
+.footer-logo{
+    width: fit-content;
+    margin: 0 auto;
+}
+.developer{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:940px){
+    h1{
+        text-align: center;
+    }
+    main{
+        width: auto;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .input-text,.output-text{
+        width: 100%;
+    }
+
+
+}

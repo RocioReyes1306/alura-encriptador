@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Encriptador2</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="box-header">
+                <h1 class="logo"><img src="images/Logo.png"></h1>
+                
+            </div>      
+        </header>
+        <main>
+            <section class="input-text">
+                <div class="text-box-container">
+                    <textarea rows="11" cols="10" maxlength="200" placeholder="Ingrese el texto..." class="text-box" id="box-area"></textarea>
+                </div>
+                <p class="alert">&#9888 Solo letras minúsculas y sin acento</p>
+                <div class="buttons-container">
+                    <input type="submit" value="Encriptar" class="btn-encripta" id="boton_encripta">
+                    <input type="submit" value="Desencriptar" class="btn-desencripta" id="boton_desencripta">
+                </div>
+            </section>
+            <section class="output-text">
+                <div class="munieco" id="munieco-container">
+                    <img src="images/Munieco.png" alt="not-image-found" class="imgmunieco">     
+                </div>
+                <div class="output-alert" id="alerta-no-message">
+                    <h2>Ningún mensaje fue <br>encontrado</h2>
+                    <p>Ingrese el texto a encriptar</p>
+                </div>
+                <div class="final-text-container" id="text-container">
+                    <p class="final-text" id="finalP"></p>
+                </div>
+                <div class="btn-copy-container" id="boton_copiar">
+                    <input type="submit" value="Copiar" class="btn-copy">
+                </div> 
+            </section>
+        </main>
+        <footer>
+            <div class="footer-logo">
+                <h1><img src="images/Logo.png"></h1>
+            </div>
+            
+            <div class="developer">
+                <p>Realizó Maria del Rocio Reyes Reyes</p>
+            </div>
+            
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
