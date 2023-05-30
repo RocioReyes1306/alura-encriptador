@@ -130,9 +130,11 @@ margin-top: 20px;
 }
 .footer-logo{
     margin: 0 auto;
+    width: fit-content;
 }
 .developer{
     margin: 0 auto;
+    width: fit-content;
 }
 
 @media screen and (max-width:940px){
